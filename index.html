@@ -35,19 +35,79 @@
             <span></span>
         </div>
         <div class="menu-links">
-            <ul class="ham-nav-links">
-                <li class="nav-link"><a href="#home" onclick="toggleMenu()">Home</a></li>
-                <li class="nav-link"><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li class="nav-link"><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li class="nav-link"><a href="#project" onclick="toggleMenu()">Project</a></li>
-                <li class="nav-link"><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </ul>
+            <!-- <ul class="ham-nav-links"> -->
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <!-- </ul> -->
         </div>
 
     </nav>
 
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/photos/enhanced-image.png" alt="profile image">
+
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sukesh Sunkari</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                    onclick="window.open('https://drive.google.com/file/d/1IvnwTgCG23OjmWNei9QK_M83MbyySD5w/view?usp=sharing', '_blank')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Me
+                </button>
+            </div>
 
 
+            <div class="socials-container">
+                <img src="" alt="Linked profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/sukesh-sunkari-1b0a2b1b4/'">
+                <img src="" alt="GitHub profile" class="icon" onclick="location.href='GitHub.com/sukeshsunkari'">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/photos/black.jpg" alt="profile about__pic" class="about__pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/photos/" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+years <br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/photos/" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Tech Bachelors Degree <br>Computer Science and Engineering</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis est sunt facilis sit maiores, non
+                        tempora eaque, nostrum eveniet tenetur aut? Quidem, quo dicta. Odio error nemo ratione dolorem
+                        incidunt! Voluptatum, necessitatibus quas in cum voluptates provident sint, alias voluptas eius
+                        temporibus aliquam officia? Et ex illo odio suscipit voluptates?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/photos/" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
 
 
 
