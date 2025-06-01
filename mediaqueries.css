@@ -4,6 +4,17 @@
         margin-bottom: 6rem;
     }
 
+    #about,
+    #experience,
+    #projects {
+        margin-bottom: 3rem;
+    }
+
+    #contact {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
     .about-container {
         flex-wrap: wrap;
     }
@@ -18,17 +29,20 @@
         display: flex;
     }
 
-    #experience,
-    .experience-details-container {
-        margin-top: 2rem;
-    }
-
     #profile,
     .section-container {
         display: block;
     }
 
-    .arrow {
+
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+
+
+    .arrow,
+    .arrowrotate {
         display: none;
     }
 
